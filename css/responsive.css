@@ -40,6 +40,10 @@
         width: 400px;
     }
 
+    .afooter>img {
+        width: 100px;
+    }
+
     /* box de palavras*/
     .descricao {
         width: 95%;
