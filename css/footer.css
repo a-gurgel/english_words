@@ -1,0 +1,42 @@
+footer{
+    background: #7e7d7ddc;
+    padding: 50px 0 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.afooter{
+    width: 15%;
+    text-align: center;
+}
+
+.afooter h4{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 350;
+    margin-bottom: 5px;
+}
+
+.afooter a{
+    color: #000;
+}
+
+.afooter img{
+    width: 100%;
+}
+
+.midia-social i{
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.midia-social i:hover {
+    color: #fff;
+}

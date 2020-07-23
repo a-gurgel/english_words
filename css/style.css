@@ -15,18 +15,18 @@ h1, h2, h3, h4 {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
 }
 
 .container1 {
-    width: 100%;
-    max-width: 1100px;
+    width: 90%;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    padding: 60px 10px;
+    padding: 60px 0px;
 }
 
 h1 {
@@ -78,17 +78,17 @@ h1 {
 
 .container-palavras {
     display: flex;
-    flex-wrap: wrap-reverse;
-    margin-top: 80px;
+    flex-wrap: wrap;
+    margin-top: 60px;
     justify-content: space-around;
 }
 
 .descricao {
-    width: 19%;
+    width: 29%;
     background: #fff;
     margin-bottom: 30px;
     border-radius: 10px;
-    padding: 45px 25px 55px 25px;
+    padding: 45px 30px 60px 30px;
     transition: 1.5s;
     word-wrap: break-word; 
 }
@@ -98,58 +98,13 @@ h1 {
 }
 
 .descricao>h3 {
-    font-size: 32px;
-    margin-top: 25px;
+    font-size: 24px;
+    margin-top: 30px;
 }
 
 .descricao>p {
     font-weight: 100;
     color: #5d5578;
     margin-top: 15px;
-    padding-bottom: 25px;
-}
-
-/* footer */
-
-footer{
-    background: #7e7d7ddc;
-    padding: 50px 0 10px;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
-}
-
-.afooter{
-    width: 15%;
-    text-align: center;
-}
-
-.afooter h4{
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight: 350;
-    margin-bottom: 5px;
-}
-
-.afooter a{
-    color: #000;
-}
-
-.afooter img{
-    width: 100%;
-}
-
-.midia-social i{
-    font-size: 30px;
-    display: inline-block;
-    cursor: pointer;
-    margin-top: 10px;
-    text-align: center;
-    margin-right: 5px;
-}
-
-.midia-social i:hover {
-    color: #fff;
+    padding-bottom: 20px;
 }
